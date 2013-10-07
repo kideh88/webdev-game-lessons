@@ -11,8 +11,11 @@ for($i = 0; $i < 3; $i += 1) {
 
 }
 
+//$strFindName = 'Kim';
+
 $objPDO = new Data();
 $objNames = $objPDO->pdo()->prepare('Select * from test');
+//$objNames->bindValue(':name', $strFindName, PDO::PARAM_STR);
 $objNames->execute();
 echo '<pre>';
 var_dump($objNames->fetchAll(PDO::FETCH_ASSOC));
