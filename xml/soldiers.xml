@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <soldiers>
+        <soldier>
+            <name>S1</name>
+            <positions>
+                <positionX>0</positionX>
+                <positionY>100</positionY>
+            </positions>
+        </soldier>
+        <soldier>
+            <name>S2</name>
+            <positions>
+                <positionX>0</positionX>
+                <positionY>200</positionY>
+            </positions>
+        </soldier>
+    </soldiers>
+</root>
